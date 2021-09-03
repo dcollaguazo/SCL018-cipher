@@ -7,7 +7,17 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>This is an app to encode and decode your text</h1>
+      <form action="" method="" class="">
+        <label for="toEncode" id="lblToEncode">Enter text to encode: </label>
+        <input type="text" id="txtToEncode" required>
+        <input type="button" id="btnToEncode" value="Click here to encode!"><br/>
+        <label for="toEncode" id="lblOffset">Enter offset: </label>
+        <input type="number" id="txtOffset" required><br/>
+        <label for="toEncode" id="lblToDecode">Encoded text: </label>
+        <input type="text" id="txtToDecode" required>
+        <input type="button" id="btnToDecode" value="Want to decode it? Click here!">
+      </form>
     </div>
     <script src="index.js" type="module"></script>
   </body>
